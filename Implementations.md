@@ -209,6 +209,16 @@ Implementation of QUIC and HTTP/3 support in Node.js (based on ngtcp2)
 Notes: No public server yet. Implementation is still in development and not yet merged with main Node.js repository. 
 -->
 
+### [OpenSSL](https://github.com/openssl/openssl)
+OpenSSL library QUIC implementation for clients and servers
+
+- **Language:** C
+- **Version:** v1
+- **Roles:** library, client, server
+- **Handshake:** TLS 1.3
+- **Protocol IDs:** `0x00000001`
+- **Vulnerability reporting:** https://openssl-library.org/policies/general/security-policy/
+
 ### [picoquic](https://github.com/private-octopus/picoquic)
 A small(ish) implementation of QUIC in C, to explore the protocol and the API, for example for DNS over QUIC. Relies on PicoTLS for TLS 1.3. MIT license. Tested on Windows, Linux, FreeBSD/IOS.
 
